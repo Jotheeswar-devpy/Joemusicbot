@@ -12,9 +12,9 @@ pillow
 psutil
 py-tgcalls==2.1.1
 pykeyboard
-pyrogram==1.4.16
+pyrogram==2.0.106
 python-dotenv
-pyyaml==5.4
+pyyaml==6.0
 requests
 speedtest-cli
 spotipy
