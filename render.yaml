@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: DuskyMusic
+    env: python
+    plan: free
+    buildCommand: pip3 install --no-cache-dir --upgrade -r requirements.txt
+    startCommand: bash start
