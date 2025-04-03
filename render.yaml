@@ -3,5 +3,5 @@ services:
     name: DuskyMusic
     env: python
     plan: free
-    buildCommand: pip3 install --no-cache-dir --upgrade --requirement requirements.txt
+    buildCommand: pip3 install --no-cache-dir --upgrade -r requirements.txt
     startCommand: bash start
