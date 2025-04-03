@@ -13,4 +13,6 @@ COPY . .
 
 # Install Python dependencies without cache
 RUN pip3 install --no-cache-dir --upgrade -r requirements.txt
-CMD bash start
+
+# Start the application using gunicorn and the Python script concurrently.
+CMD gunicorn app:app & bash start
